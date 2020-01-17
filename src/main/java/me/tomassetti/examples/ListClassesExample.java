@@ -22,6 +22,7 @@ public class ListClassesExample {
                     public void visit(ClassOrInterfaceDeclaration n, Object arg) {
                         super.visit(n, arg);
                         System.out.println(" * " + n.getName());
+
                     }
                 }.visit(JavaParser.parse(file), null);
                 System.out.println(); // empty line
@@ -38,7 +39,6 @@ public class ListClassesExample {
         }catch (IOException e){
             e.printStackTrace();
         }
-
         File projectDir = new File("source_to_parse/test");
         listClasses(projectDir);
     }

@@ -12,8 +12,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 
-public class MethodCallsExample {
+import static me.tomassetti.examples.GenerateFuncDIc.generateFuncDic;
 
+public class MethodCallsExample {
     public static void listMethodCalls(File projectDir) {
         new DirExplorer((level, path, file) -> path.endsWith(".java"), (level, path, file) -> {
             System.out.println(path);
@@ -24,6 +25,9 @@ public class MethodCallsExample {
                     public void visit(MethodCallExpr n, Object arg) {
                         super.visit(n, arg);
                         System.out.println(" [L " + n.getBegin().get().line + "] " + n);
+//                        System.out.println("childNodes:"+n.getChildNodes());
+                        InstrumentationFunc instrumentationFunc = new InstrumentationFunc();
+                        instrumentationFunc.InstrumentationFuncInterface(n,path);
                     }
                 }.visit(JavaParser.parse(file), null);
                 System.out.println(); // empty line
@@ -37,6 +41,7 @@ public class MethodCallsExample {
 
     public static void main(String[] args){
         try{
+            generateFuncDic();
             IOtoFile iOtoFile = new IOtoFile();
             IOtoFile.IOtoFile("OutputMethodCalls.txt");
         }catch (IOException e){

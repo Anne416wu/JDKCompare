@@ -4,7 +4,7 @@ import java.io.Reader;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class PlayGroubnd {
+public class MyTest {
     public void mytest(SortedSet<Integer> s){
         System.out.println(s);
     }
@@ -13,7 +13,7 @@ public class PlayGroubnd {
         for (int i=0; i<10;i++){
             treeSet.add(i);
         }
-        mytest();
+        myTest();
         SortedSet<Integer> s = treeSet.subSet(0,2);
     }
 }
