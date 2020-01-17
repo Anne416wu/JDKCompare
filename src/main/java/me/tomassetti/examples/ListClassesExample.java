@@ -31,8 +31,15 @@ public class ListClassesExample {
         }).explore(projectDir);
     }
 
-    public static void main(String[] args) {
-        File projectDir = new File("source_to_parse/junit-master");
+    public static void main(String[] args){
+        try {
+            IOtoFile iOtoFile = new IOtoFile();
+            IOtoFile.IOtoFile("OutputListClasses.txt");
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+
+        File projectDir = new File("source_to_parse/test");
         listClasses(projectDir);
     }
 }

@@ -24,6 +24,8 @@ public class StatementsLinesExample {
                         if (node instanceof Statement) {
                             System.out.println(" [Lines " + node.getBegin().get().line
                                     + " - " + node.getEnd().get().line + " ] " + node);
+                            //插装函数
+
                             return false;
                         } else {
                             return true;
@@ -38,6 +40,12 @@ public class StatementsLinesExample {
     }
 
     public static void main(String[] args) {
+        try{
+            IOtoFile iOtoFile = new IOtoFile();
+            IOtoFile.IOtoFile("OutputStatementsLines.txt");
+        }catch (IOException e){
+            e.printStackTrace();
+        }
         File projectDir = new File("source_to_parse/junit-master");
         statementsByLine(projectDir);
     }

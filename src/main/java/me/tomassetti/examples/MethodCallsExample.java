@@ -8,7 +8,9 @@ import com.google.common.base.Strings;
 import me.tomassetti.support.DirExplorer;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.PrintStream;
 
 public class MethodCallsExample {
 
@@ -27,12 +29,20 @@ public class MethodCallsExample {
                 System.out.println(); // empty line
             } catch (IOException e) {
                 new RuntimeException(e);
+                e.printStackTrace();
             }
         }).explore(projectDir);
     }
 
-    public static void main(String[] args) {
-        File projectDir = new File("source_to_parse/junit-master");
+
+    public static void main(String[] args){
+        try{
+            IOtoFile iOtoFile = new IOtoFile();
+            IOtoFile.IOtoFile("OutputMethodCalls.txt");
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        File projectDir = new File("source_to_parse/test");
         listMethodCalls(projectDir);
     }
 }
