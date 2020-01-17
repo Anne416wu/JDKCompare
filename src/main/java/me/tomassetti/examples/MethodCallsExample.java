@@ -42,6 +42,8 @@ public class MethodCallsExample {
     public static void main(String[] args){
         try{
             generateFuncDic();
+            File outDir = new File("out");
+            outDir.mkdir();
             IOtoFile iOtoFile = new IOtoFile();
             IOtoFile.IOtoFile("OutputMethodCalls.txt");
         }catch (IOException e){
