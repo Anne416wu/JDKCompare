@@ -47,7 +47,7 @@ public class MethodCallsExample {
         }catch (IOException e){
             e.printStackTrace();
         }
-        File projectDir = new File("source_to_parse/test");
+        File projectDir = new File("source_to_parse/junit-master");
         listMethodCalls(projectDir);
     }
 }

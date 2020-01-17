@@ -12,11 +12,11 @@ public class InstrumentationFunc {
         return GenerateFuncDIc.funcDicMap.containsKey(funcName.toLowerCase().hashCode());
     }
     private boolean judgeFuncReturn(MethodCallExpr n){
-        String funcName = n.getName().toString();
-        return GenerateFuncDIc.funcDicMap.containsKey(funcName);
+        String funcReturn = n.getScope().toString();
+        return funcReturn.endsWith("empty");
     }
     public void InstrumentationFuncInterface(MethodCallExpr n, String path){
-        if (!judgeFuncInDic(n)){
+        if (!judgeFuncInDic(n)&&!judgeFuncReturn(n)){
             printObjectToFile(n,path);
         }
     }
@@ -29,8 +29,8 @@ public class InstrumentationFunc {
             writeFile.createNewFile();
             new File(filePath).createNewFile();
             BufferedWriter out = new BufferedWriter(new FileWriter(writeFile));
-            out.write("我会写入文件啦1\r\n"); // \r\n即为换行
-            out.write("我会写入文件啦2\r\n"); // \r\n即为换行
+            out.write(n.getNodeLists().toString()+"\r\n"); // \r\n即为换行
+            out.write(n.getScope().toString()+"\r\n"); // \r\n即为换行
             out.flush(); // 把缓存区内容压入文件
         }catch(IOException e){
             e.printStackTrace();

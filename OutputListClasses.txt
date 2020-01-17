@@ -1,4 +1,2232 @@
-/testSourceCode.java
-====================
+/src/test/java/junit/tests/AllTests.java
+========================================
+ * AllTests
+
+/src/test/java/junit/tests/framework/AllTests.java
+==================================================
+ * AllTests
+
+/src/test/java/junit/tests/framework/OverrideTestCase.java
+==========================================================
+ * OverrideTestCase
+
+/src/test/java/junit/tests/framework/AssertionFailedErrorTest.java
+==================================================================
+ * AssertionFailedErrorTest
+
+/src/test/java/junit/tests/framework/Failure.java
+=================================================
+ * Failure
+
+/src/test/java/junit/tests/framework/AssertTest.java
+====================================================
+ * AssertTest
+
+/src/test/java/junit/tests/framework/NoTestCases.java
+=====================================================
+ * NoTestCases
+
+/src/test/java/junit/tests/framework/ComparisonFailureTest.java
+===============================================================
+ * ComparisonFailureTest
+
+/src/test/java/junit/tests/framework/ThreeTestCases.java
+========================================================
+ * ThreeTestCases
+
+/src/test/java/junit/tests/framework/NotPublicTestCase.java
+===========================================================
+ * NotPublicTestCase
+
+/src/test/java/junit/tests/framework/TestCaseTest.java
+======================================================
+ * TornDown
+ * TestCaseTest
+
+/src/test/java/junit/tests/framework/InheritedTestCase.java
+===========================================================
+ * InheritedTestCase
+
+/src/test/java/junit/tests/framework/OneTestCase.java
+=====================================================
+ * OneTestCase
+
+/src/test/java/junit/tests/framework/TestListenerTest.java
+==========================================================
+ * TestListenerTest
+
+/src/test/java/junit/tests/framework/SuiteTest.java
+===================================================
+ * SuiteTest
+
+/src/test/java/junit/tests/framework/FloatAssertTest.java
+=========================================================
+ * FloatAssertTest
+
+/src/test/java/junit/tests/framework/NotVoidTestCase.java
+=========================================================
+ * NotVoidTestCase
+
+/src/test/java/junit/tests/framework/TestImplementorTest.java
+=============================================================
+ * DoubleTestCase
+ * TestImplementorTest
+
+/src/test/java/junit/tests/framework/NoArgTestCaseTest.java
+===========================================================
+ * NoArgTestCaseTest
+
+/src/test/java/junit/tests/framework/ComparisonCompactorTest.java
+=================================================================
+ * ComparisonCompactorTest
+
+/src/test/java/junit/tests/framework/Success.java
+=================================================
+ * Success
+
+/src/test/java/junit/tests/framework/NoTestCaseClass.java
+=========================================================
+ * NoTestCaseClass
+
+/src/test/java/junit/tests/framework/package-info.java
+======================================================
+
+/src/test/java/junit/tests/framework/DoublePrecisionAssertTest.java
+===================================================================
+ * DoublePrecisionAssertTest
+
+/src/test/java/junit/tests/runner/AllTests.java
+===============================================
+ * AllTests
+
+/src/test/java/junit/tests/runner/BaseTestRunnerTest.java
+=========================================================
+ * MockRunner
+ * NonStatic
+ * DoesntExtendTestCase
+ * BaseTestRunnerTest
+
+/src/test/java/junit/tests/runner/TextFeedbackTest.java
+=======================================================
+ * TestResultPrinter
+ * TextFeedbackTest
+
+/src/test/java/junit/tests/runner/StackFilterTest.java
+======================================================
+ * StackFilterTest
+
+/src/test/java/junit/tests/runner/ResultTest.java
+=================================================
+ * ResultWithFixedRunTime
+ * ResultTest
+
+/src/test/java/junit/tests/runner/TextRunnerSingleMethodTest.java
+=================================================================
+ * InvocationTest
+ * TextRunnerSingleMethodTest
+
+/src/test/java/junit/tests/runner/TextRunnerTest.java
+=====================================================
+ * TextRunnerTest
+
+/src/test/java/junit/tests/runner/package-info.java
+===================================================
+
+/src/test/java/junit/tests/extensions/AllTests.java
+===================================================
+ * AllTests
+
+/src/test/java/junit/tests/extensions/ActiveTestTest.java
+=========================================================
+ * SuccessTest
+ * ActiveTestTest
+
+/src/test/java/junit/tests/extensions/RepeatedTestTest.java
+===========================================================
+ * SuccessTest
+ * RepeatedTestTest
+
+/src/test/java/junit/tests/extensions/ExtensionTest.java
+========================================================
+ * TornDown
+ * ExtensionTest
+
+/src/test/java/junit/tests/extensions/package-info.java
+=======================================================
+
+/src/test/java/junit/tests/WasRun.java
+======================================
+ * WasRun
+
+/src/test/java/junit/tests/package-info.java
+============================================
+
+/src/test/java/junit/samples/AllTests.java
+==========================================
+ * AllTests
+
+/src/test/java/junit/samples/ListTest.java
+==========================================
+ * ListTest
+
+/src/test/java/junit/samples/SimpleTest.java
+============================================
+ * SimpleTest
+
+/src/test/java/junit/samples/money/MoneyTest.java
+=================================================
+ * MoneyTest
+
+/src/test/java/junit/samples/money/MoneyBag.java
+================================================
+ * MoneyBag
+
+/src/test/java/junit/samples/money/Money.java
+=============================================
+ * Money
+
+/src/test/java/junit/samples/money/IMoney.java
+==============================================
+ * IMoney
+
+/src/test/java/junit/samples/money/package-info.java
+====================================================
+
+/src/test/java/junit/samples/package-info.java
+==============================================
+
+/src/test/java/org/junit/experimental/categories/CategoryFilterFactoryTest.java
+===============================================================================
+ * CategoryFilterFactoryStub
+ * DummyFilter
+ * CategoryFilterFactoryTest
+
+/src/test/java/org/junit/validator/AnnotationsValidatorTest.java
+================================================================
+ * ExampleAnnotationValidator
+ * AnnotationValidatorMethodTest
+ * AnnotationValidatorFieldTest
+ * AnnotationValidatorClassTest
+ * AnnotationsValidatorTest
+
+/src/test/java/org/junit/validator/PublicClassValidatorTest.java
+================================================================
+ * PublicClass
+ * NonPublicClass
+ * PublicClassValidatorTest
+
+/src/test/java/org/junit/validator/AnnotationValidatorFactoryTest.java
+======================================================================
+ * SampleTestWithValidator
+ * Validator
+ * SampleTestWithValidatorThatThrowsException
+ * ValidatorThatThrowsException
+ * AnnotationValidatorFactoryTest
+
+/src/test/java/org/junit/runner/JUnitCommandLineParseResultTest.java
+====================================================================
+ * FilterFactoryStub
+ * DummyCategory0
+ * DummyTest
+ * JUnitCommandLineParseResultTest
+
+/src/test/java/org/junit/runner/notification/ConcurrentRunNotifierTest.java
+===========================================================================
+ * ConcurrentRunListener
+ * ExaminedListener
+ * AbstractConcurrentFailuresTest
+ * ConcurrentRunNotifierTest
+
+/src/test/java/org/junit/runner/notification/RunNotifierTest.java
+=================================================================
+ * CorruptListener
+ * FailureListener
+ * CountingListener
+ * ThreadSafeListener
+ * RunNotifierTest
+
+/src/test/java/org/junit/runner/notification/SynchronizedRunListenerTest.java
+=============================================================================
+ * MethodSignature
+ * NamedListener
+ * SynchronizedRunListenerTest
+
+/src/test/java/org/junit/runner/RunnerSpy.java
+==============================================
+ * RunnerSpy
+
+/src/test/java/org/junit/runner/FilterOptionIntegrationTest.java
+================================================================
+ * TestListener
+ * DummyTestClass
+ * DummyTestClass0
+ * DummyTestClass1
+ * DummyTestClass01
+ * DummyTestClass0TestMethod1
+ * DummyCategory0
+ * DummyCategory1
+ * FilterOptionIntegrationTest
+
+/src/test/java/org/junit/runner/FilterFactoriesTest.java
+========================================================
+ * NonFilterFactory
+ * NonInstantiableFilterFactory
+ * FilterFactoryStub
+ * DummyFilter
+ * DummyCategory
+ * DummySuite
+ * DummyTest
+ * FilterFactoriesTest
+
+/src/test/java/org/junit/runner/JUnitCoreTest.java
+==================================================
+ * JUnitCoreTest
+
+/src/test/java/org/junit/tests/AllTests.java
+============================================
+ * AllTests
+
+/src/test/java/org/junit/tests/running/methods/TimeoutTest.java
+===============================================================
+ * FailureWithTimeoutTest
+ * FailureWithTimeoutRunTimeExceptionTest
+ * SuccessWithTimeoutTest
+ * TimeoutFailureTest
+ * InfiniteLoopTest
+ * ImpatientLoopTest
+ * ThreadTest
+ * InfiniteLoopMultithreaded
+ * InfiniteLoopWithStuckThreadTest
+ * InfiniteLoopStuckInMainThreadTest
+ * WillTimeOut
+ * TimeOutZero
+ * TimeoutSubclass
+ * TimeOutOneSecond
+ * TimeoutTest
+
+/src/test/java/org/junit/tests/running/methods/ParameterizedTestMethodTest.java
+===============================================================================
+ * EverythingWrong
+ * SuperWrong
+ * SubWrong
+ * SubShadows
+ * ParameterizedTestMethodTest
+
+/src/test/java/org/junit/tests/running/methods/AnnotationTest.java
+==================================================================
+ * SimpleTest
+ * SimpleTestWithFutureProofExplicitRunner
+ * SetupTest
+ * TeardownTest
+ * FailureTest
+ * SetupFailureTest
+ * TeardownFailureTest
+ * TestAndTeardownFailureTest
+ * TeardownAfterFailureTest
+ * TwoTests
+ * OldTest
+ * OldSuiteTest
+ * ExceptionTest
+ * NoExceptionTest
+ * OneTimeSetup
+ * OneTimeTeardown
+ * OrderTest
+ * NonStaticOneTimeSetup
+ * ErrorInBeforeClass
+ * ErrorInAfterClass
+ * SuperInheritance
+ * SubInheritance
+ * SuperShadowing
+ * SubShadowing
+ * SuperTest
+ * SubTest
+ * RunAllAfters
+ * RunAllAftersRegardless
+ * RunAllAfterClasses
+ * RunAllAfterClassesRegardless
+ * AnnotationTest
+
+/src/test/java/org/junit/tests/running/methods/TestMethodTest.java
+==================================================================
+ * EverythingWrong
+ * SuperWrong
+ * SubWrong
+ * SubShadows
+ * IgnoredTest
+ * Confused
+ * ConstructorParameter
+ * OnlyTestIsIgnored
+ * TestMethodTest
+
+/src/test/java/org/junit/tests/running/methods/ExpectedTest.java
+================================================================
+ * Expected
+ * Unexpected
+ * NoneThrown
+ * ExpectSuperclass
+ * ExpectedTest
+
+/src/test/java/org/junit/tests/running/methods/InheritedTestTest.java
+=====================================================================
+ * Super
+ * Sub
+ * SubWithBefore
+ * InheritedTestTest
+
+/src/test/java/org/junit/tests/running/core/JUnitCoreReturnsCorrectExitCodeTest.java
+====================================================================================
+ * Fail
+ * Succeed
+ * JUnitCoreReturnsCorrectExitCodeTest
+
+/src/test/java/org/junit/tests/running/core/MainRunner.java
+===========================================================
+ * ExitException
+ * NoExitSecurityManager
+ * MainRunner
+
+/src/test/java/org/junit/tests/running/core/CommandLineTest.java
+================================================================
+ * Example
+ * Count
+ * CommandLineTest
+
+/src/test/java/org/junit/tests/running/core/SystemExitTest.java
+===============================================================
+ * Exit
+ * SystemExitTest
+
+/src/test/java/org/junit/tests/running/classes/UseSuiteAsASuperclassTest.java
+=============================================================================
+ * TestA
+ * TestB
+ * MySuite
+ * AllWithMySuite
+ * UseSuiteAsASuperclassTest
+
+/src/test/java/org/junit/tests/running/classes/BlockJUnit4ClassRunnerTest.java
+==============================================================================
+ * Enclosed
+ * OuterClass
+ * BlockJUnit4ClassRunnerTest
+
+/src/test/java/org/junit/tests/running/classes/RunWithTest.java
+===============================================================
+ * ExampleRunner
+ * ExampleTest
+ * SubExampleTest
+ * BadRunner
+ * Empty
+ * RunWithTest
+
+/src/test/java/org/junit/tests/running/classes/ParentRunnerFilteringTest.java
+=============================================================================
+ * CountingFilter
+ * ExampleTest
+ * ExampleSuite
+ * SuiteWithUnmodifyableChildList
+ * ExampleSuiteWithUnmodifyableChildList
+ * ParentRunnerFilteringTest
+
+/src/test/java/org/junit/tests/running/classes/EnclosedTest.java
+================================================================
+ * A
+ * B
+ * C
+ * Enclosing
+ * EnclosedTest
+
+/src/test/java/org/junit/tests/running/classes/SuiteTest.java
+=============================================================
+ * TestA
+ * TestB
+ * All
+ * InheritsAll
+ * AllWithBeforeAndAfterClass
+ * AllWithOutAnnotation
+ * InfiniteLoop
+ * BiInfiniteLoop
+ * Hydra
+ * Hercules
+ * WithoutDefaultConstructor
+ * NoSuiteClassesAnnotation
+ * SuiteTest
+
+/src/test/java/org/junit/tests/running/classes/ParentRunnerTest.java
+====================================================================
+ * FruitTest
+ * Exclude
+ * ExampleTest
+ * NonPublicTestClass
+ * AssertionErrorAtParentLevelTest
+ * AssumptionViolatedAtParentLevelTest
+ * TestTest
+ * CountingRunListener
+ * ParentRunnerTest
+
+/src/test/java/org/junit/tests/running/classes/ParameterizedTestTest.java
+=========================================================================
+ * AdditionTest
+ * ThreeFailures
+ * ParameterizedWithoutSpecialTestname
+ * AdditionTestWithAnnotatedFields
+ * BadIndexForAnnotatedFieldTest
+ * BadNumberOfAnnotatedFieldTest
+ * BeforeAndAfter
+ * EmptyTest
+ * IncorrectTest
+ * ProtectedParametersTest
+ * ParametersNotIterable
+ * PrivateConstructor
+ * AdditionTestWithArray
+ * SingleArgumentTestWithArray
+ * SingleArgumentTestWithIterable
+ * ExceptionThrowingRunnerFactory
+ * TestWithUseParametersRunnerFactoryAnnotation
+ * UseParameterizedFactoryAbstractTest
+ * UseParameterizedFactoryTest
+ * ParameterizedTestTest
+
+/src/test/java/org/junit/tests/running/classes/IgnoreClassTest.java
+===================================================================
+ * IgnoreMe
+ * IgnoreClassTest
+
+/src/test/java/org/junit/tests/running/classes/ClassLevelMethodsWithIgnoredTestsTest.java
+=========================================================================================
+ * BeforeClassWithIgnoredTest
+ * BeforeClassWithIgnoredClass
+ * AfterClassWithIgnoredTest
+ * FilteredTests
+ * BeforeClassWithFilteredTest
+ * HasUnfilteredTest
+ * BrokenRule
+ * ClassRuleWithIgnoredTest
+ * ClassLevelMethodsWithIgnoredTestsTest
+
+/src/test/java/org/junit/tests/experimental/parallel/ParallelMethodTest.java
+============================================================================
+ * Example
+ * ParallelMethodTest
+
+/src/test/java/org/junit/tests/experimental/parallel/ParallelClassTest.java
+===========================================================================
+ * Example1
+ * Example2
+ * ParallelClassTest
+
+/src/test/java/org/junit/tests/experimental/ExperimentalTests.java
+==================================================================
+ * ExperimentalTests
+
+/src/test/java/org/junit/tests/experimental/AssumptionTest.java
+===============================================================
+ * HasFailingAssumption
+ * HasPassingAssumption
+ * HasFailingAssumeInBefore
+ * HasFailingAssumeInBeforeClass
+ * AssumptionFailureInConstructor
+ * HasAssumeWithMessage
+ * HasAssumeWithMessageAndCause
+ * HasFailingAssumptionWithMessage
+ * AssumptionTest
+
+/src/test/java/org/junit/tests/experimental/theories/ParameterSignatureTest.java
+================================================================================
+ * ParameterSignatureTest
+
+/src/test/java/org/junit/tests/experimental/theories/PotentialAssignmentTest.java
+=================================================================================
+ * PotentialAssignmentTest
+
+/src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/StubbedTheories.java
+============================================================================================
+ * StubbedTheoryAnchor
+ * StubbedTheories
+
+/src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/Stub.java
+=================================================================================
+
+/src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/StringableObject.java
+=============================================================================================
+ * StringableObject
+
+/src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/ReguessableValue.java
+=============================================================================================
+ * ReguessableValue
+
+/src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/StubbedTheoriesTest.java
+================================================================================================
+ * StubbedTheoriesTest
+
+/src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/Guesser.java
+====================================================================================
+ * GuessMap
+ * Guesser
+
+/src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/Correspondent.java
+==========================================================================================
+ * Correspondent
+
+/src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/GuesserQueue.java
+=========================================================================================
+ * ReguessableDecorator
+ * GuesserQueue
+
+/src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/MethodCall.java
+=======================================================================================
+ * MethodCall
+
+/src/test/java/org/junit/tests/experimental/theories/runner/WithParameterSupplier.java
+======================================================================================
+ * SimplePotentialAssignment
+ * SimpleSupplier
+ * TestClassUsingParameterSupplier
+ * SupplierWithUnknownConstructor
+ * TestClassUsingSupplierWithUnknownConstructor
+ * SupplierWithTwoConstructors
+ * TestClassUsingSupplierWithTwoConstructors
+ * SupplierWithTestClassConstructor
+ * TestClassUsingSupplierWithTestClassConstructor
+ * WithParameterSupplier
+
+/src/test/java/org/junit/tests/experimental/theories/runner/WithDataPointMethod.java
+====================================================================================
+ * HasDataPointMethod
+ * DataPointMethodReturnsMutableObject
+ * HasDateMethod
+ * WithDataPointMethod
+
+/src/test/java/org/junit/tests/experimental/theories/runner/UnsuccessfulWithDataPointFields.java
+================================================================================================
+ * HasAFailingTheory
+ * DoesntUseParams
+ * NullsOK
+ * TheoriesMustBePublic
+ * DataPointFieldsMustBeStatic
+ * DataPointMethodsMustBeStatic
+ * DataPointFieldsMustBePublic
+ * DataPointMethodsMustBePublic
+ * UnsuccessfulWithDataPointFields
+
+/src/test/java/org/junit/tests/experimental/theories/runner/WithOnlyTestAnnotations.java
+========================================================================================
+ * HonorExpectedException
+ * HonorExpectedExceptionPasses
+ * HonorTimeout
+ * ErrorWhenTestHasParametersDespiteTheories
+ * WithOnlyTestAnnotations
+
+/src/test/java/org/junit/tests/experimental/theories/runner/WithExtendedParameterSources.java
+=============================================================================================
+ * ParameterAnnotations
+ * ShouldFilterOutNullSingleDataPoints
+ * ShouldFilterOutNullElementsFromDataPointArrays
+ * ShouldRejectTheoriesWithOnlyDisallowedNullData
+ * DataPointArrays
+ * DataPointArrayMethod
+ * DataPointMalformedArrayMethods
+ * DataPointArrayToBeUsedForWholeParameter
+ * WithExtendedParameterSources
+
+/src/test/java/org/junit/tests/experimental/theories/runner/WhenNoParametersMatch.java
+======================================================================================
+ * AssumptionsFail
+ * WhenNoParametersMatch
+
+/src/test/java/org/junit/tests/experimental/theories/runner/WithUnresolvedGenericTypeVariablesOnTheoryParms.java
+================================================================================================================
+ * TypeVariableOnTheoryOnly
+ * TypeVariableOnTheoryParm
+ * TypeVariableOnParameterizedTheoryParm
+ * TypeVariableOnWildcardUpperBoundOnTheoryParm
+ * TypeVariableOnWildcardLowerBoundOnTheoryParm
+ * TypeVariableOnArrayTypeOnTheoryParm
+ * TypeVariableOnComponentOfArrayTypeOnTheoryParm
+ * TypeVariableOnTheoryClass
+ * TypeVariablesAbound
+ * WithUnresolvedGenericTypeVariablesOnTheoryParms
+
+/src/test/java/org/junit/tests/experimental/theories/runner/SuccessfulWithDataPointFields.java
+==============================================================================================
+ * HasATwoParameterTheory
+ * BeforeAndAfterOnSameInstance
+ * NewObjectEachTime
+ * PositiveInts
+ * PositiveIntsWithNegativeField
+ * PositiveIntsWithMethodParams
+ * DifferentTypesInConstructor
+ * BeforeAndAfterEachTime
+ * OneTestTwoAnnotations
+ * StaticPublicNonDataPoints
+ * SuccessfulWithDataPointFields
+
+/src/test/java/org/junit/tests/experimental/theories/runner/FailingDataPointMethods.java
+========================================================================================
+ * HasFailingSingleDataPointMethod
+ * HasFailingDataPointArrayMethod
+ * HasIgnoredFailingSingleDataPointMethod
+ * HasIgnoredFailingMultipleDataPointMethod
+ * HasWronglyIgnoredFailingSingleDataPointMethod
+ * HasWronglyIgnoredFailingMultipleDataPointMethod
+ * FailingDataPointMethods
+
+/src/test/java/org/junit/tests/experimental/theories/runner/WithAutoGeneratedDataPoints.java
+============================================================================================
+ * TheoryTestClassWithAutogeneratedParameterValues
+ * TheoryTestClassWithSpecificEnumDataPoint
+ * TheoryTestClassWithSpecificBooleanDataPoint
+ * WithAutoGeneratedDataPoints
+
+/src/test/java/org/junit/tests/experimental/theories/runner/TypeMatchingBetweenMultiDataPointsMethod.java
+=========================================================================================================
+ * WithWrongfullyTypedDataPointsMethod
+ * WithCorrectlyTypedDataPointsMethod
+ * TypeMatchingBetweenMultiDataPointsMethod
+
+/src/test/java/org/junit/tests/experimental/theories/runner/TheoriesPerformanceTest.java
+========================================================================================
+ * UpToTen
+ * TheoriesPerformanceTest
+
+/src/test/java/org/junit/tests/experimental/theories/runner/WithNamedDataPoints.java
+====================================================================================
+ * HasSpecificDatapointsParameters
+ * WithNamedDataPoints
+
+/src/test/java/org/junit/tests/experimental/theories/internal/SpecificDataPointsSupplierTest.java
+=================================================================================================
+ * TestClassWithNamedDataPoints
+ * SpecificDataPointsSupplierTest
+
+/src/test/java/org/junit/tests/experimental/theories/internal/ParameterizedAssertionErrorTest.java
+==================================================================================================
+ * ParameterizedAssertionErrorTest
+
+/src/test/java/org/junit/tests/experimental/theories/internal/AllMembersSupplierTest.java
+=========================================================================================
+ * HasDataPointsArrayField
+ * HasDataPointsArrayWithMatchingButInaccurateTypes
+ * HasDataPointMethodWithOverlyGeneralTypes
+ * HasDataPointsWithObjectParameter
+ * HasDataPointsFieldWithNullValue
+ * HasDataPointsMethodWithNullValue
+ * HasFailingDataPointsArrayMethod
+ * HasDataPointsListField
+ * HasDataPointsListMethod
+ * HasDataPointsListFieldWithOverlyGenericTypes
+ * AllMembersSupplierTest
+
+/src/test/java/org/junit/tests/experimental/theories/AssumingInTheoriesTest.java
+================================================================================
+ * TheoryWithNoUnassumedParameters
+ * AssumingInTheoriesTest
+
+/src/test/java/org/junit/tests/experimental/theories/TestedOnSupplierTest.java
+==============================================================================
+ * TestedOnSupplierTest
+
+/src/test/java/org/junit/tests/experimental/theories/TheoryTestUtils.java
+=========================================================================
+ * TheoryTestUtils
+
+/src/test/java/org/junit/tests/experimental/max/DescriptionTest.java
+====================================================================
+ * URLClassLoader2
+ * Sweet
+ * DescriptionTest
+
+/src/test/java/org/junit/tests/experimental/max/JUnit38SortingTest.java
+=======================================================================
+ * JUnit4Test
+ * JUnit38Test
+ * JUnit38SortingTest
+
+/src/test/java/org/junit/tests/experimental/max/MaxStarterTest.java
+===================================================================
+ * TwoTests
+ * TwoUnEqualTests
+ * TwoOldTests
+ * MalformedJUnit38Test
+ * MalformedJUnit38TestMethod
+ * HalfMalformedJUnit38TestMethod
+ * MaxStarterTest
+
+/src/test/java/org/junit/tests/experimental/results/ResultMatchersTest.java
+===========================================================================
+ * ResultMatchersTest
+
+/src/test/java/org/junit/tests/experimental/results/PrintableResultTest.java
+============================================================================
+ * PrintableResultTest
+
+/src/test/java/org/junit/tests/experimental/MatcherTest.java
+============================================================
+ * MatcherTest
+
+/src/test/java/org/junit/tests/experimental/rules/ExternalResourceRuleTest.java
+===============================================================================
+ * UsesExternalResource
+ * ExternalResourceRuleTest
+
+/src/test/java/org/junit/tests/experimental/rules/ClassRulesTest.java
+=====================================================================
+ * Counter
+ * ExampleTestWithClassRule
+ * SubclassOfTestWithClassRule
+ * CustomCounter
+ * ExampleTestWithCustomClassRule
+ * OrderTestRule
+ * UsesFieldAndMethodRule
+ * MethodExampleTestWithClassRule
+ * MethodSubclassOfTestWithClassRule
+ * MethodExampleTestWithCustomClassRule
+ * Dummy
+ * CallMethodOnlyOnceRule
+ * ClassRulesTest
+
+/src/test/java/org/junit/tests/experimental/rules/TestWatcherTest.java
+======================================================================
+ * ViolatedAssumptionTest
+ * InternalViolatedAssumptionTest
+ * TestWatcherSkippedThrowsExceptionTest
+ * FailingTest
+ * TestWatcherFailedThrowsExceptionTest
+ * TestWatcherStartingThrowsExceptionTest
+ * TestWatcherFailedAndFinishedThrowsExceptionTest
+ * TestWatcherTest
+
+/src/test/java/org/junit/tests/experimental/rules/TimeoutRuleTest.java
+======================================================================
+ * AbstractTimeoutTest
+ * HasGlobalLongTimeout
+ * HasGlobalTimeUnitTimeout
+ * HasNullTimeUnit
+ * TimeoutRuleTest
+
+/src/test/java/org/junit/tests/experimental/rules/RuleMemberValidatorTest.java
+==============================================================================
+ * TestWithProtectedClassRule
+ * TestWithNonStaticClassRule
+ * TestWithStaticClassAndTestRule
+ * NonPublicTestWithClassRule
+ * TestWithClassRuleIsImplementationOfMethodRule
+ * TestWithClassRuleMethodThatReturnsMethodRule
+ * TestWithClassRuleIsAnArbitraryObject
+ * TestWithClassRuleMethodReturnsAnArbitraryObject
+ * TestWithNonStaticTestRule
+ * TestWithStaticTestRule
+ * TestWithStaticMethodRule
+ * TestWithMethodRule
+ * TestWithArbitraryObjectWithRuleAnnotation
+ * MethodTestWithProtectedClassRule
+ * MethodTestWithNonStaticClassRule
+ * MethodTestWithStaticClassAndTestRule
+ * TestMethodWithNonStaticTestRule
+ * TestMethodWithStaticTestRule
+ * TestMethodWithStaticMethodRule
+ * MethodTestWithMethodRule
+ * MethodTestWithArbitraryObjectWithRuleAnnotation
+ * SomeMethodRule
+ * RuleMemberValidatorTest
+
+/src/test/java/org/junit/tests/experimental/rules/TempFolderRuleTest.java
+=========================================================================
+ * HasTempFolder
+ * CreatesSubFolder
+ * CreatesRandomSubFolders
+ * CreatesRandomFiles
+ * NameClashes
+ * IncorrectUsage
+ * TempFolderRuleTest
+
+/src/test/java/org/junit/tests/experimental/rules/EventCollector.java
+=====================================================================
+ * EventCollector
+
+/src/test/java/org/junit/tests/experimental/rules/MethodRulesTest.java
+======================================================================
+ * ExampleTest
+ * SonOfExampleTest
+ * Increment
+ * MultipleRuleTest
+ * NoRulesTest
+ * OnFailureTest
+ * WatchmanTest
+ * BeforesAndAfters
+ * WrongTypedField
+ * SonOfWrongTypedField
+ * PrivateRule
+ * CustomTestName
+ * UsesCustomMethodRule
+ * HasMethodReturningMethodRule
+ * HasMultipleMethodsReturningMethodRule
+ * Dummy
+ * CallsMethodReturningRuleOnlyOnce
+ * MethodRulesTest
+
+/src/test/java/org/junit/tests/experimental/rules/NameRulesTest.java
+====================================================================
+ * TestNames
+ * BeforeAndAfterTest
+ * NameRulesTest
+
+/src/test/java/org/junit/tests/experimental/rules/VerifierRuleTest.java
+=======================================================================
+ * UsesErrorCollector
+ * UsesErrorCollectorTwice
+ * UsesErrorCollectorCheckThat
+ * UsesErrorCollectorCheckSucceeds
+ * UsesErrorCollectorCheckSucceedsPasses
+ * UsesVerifier
+ * VerifierRuleTest
+
+/src/test/java/org/junit/tests/experimental/rules/TestRuleTest.java
+===================================================================
+ * ExampleTest
+ * BothKindsOfRule
+ * OneFieldTwoKindsOfRule
+ * SonOfExampleTest
+ * Increment
+ * MultipleRuleTest
+ * NoRulesTest
+ * OnFailureTest
+ * WatchmanTest
+ * BeforesAndAfters
+ * WrongTypedField
+ * SonOfWrongTypedField
+ * PrivateRule
+ * CustomTestName
+ * UsesCustomMethodRule
+ * MethodExampleTest
+ * MethodBothKindsOfRule
+ * MethodOneFieldTwoKindsOfRule
+ * MethodSonOfExampleTest
+ * Increment
+ * MethodMultipleRuleTest
+ * MethodNoRulesTest
+ * MethodOnFailureTest
+ * MethodOnSkippedTest
+ * MethodWatchmanTest
+ * MethodBeforesAndAfters
+ * MethodWrongTypedField
+ * MethodSonOfWrongTypedField
+ * MethodPrivateRule
+ * MethodUsesCustomMethodRule
+ * OrderTestRule
+ * UsesFieldAndMethodRule
+ * Dummy
+ * CallMethodOnlyOnceRule
+ * TestRuleTest
+
+/src/test/java/org/junit/tests/experimental/rules/LoggingTestWatcher.java
+=========================================================================
+ * LoggingTestWatcher
+
+/src/test/java/org/junit/tests/experimental/rules/RuleChainTest.java
+====================================================================
+ * LoggingRule
+ * UseRuleChain
+ * RuleChainTest
+
+/src/test/java/org/junit/tests/experimental/rules/TemporaryFolderUsageTest.java
+===============================================================================
+ * TemporaryFolderUsageTest
+
+/src/test/java/org/junit/tests/experimental/rules/BlockJUnit4ClassRunnerOverrideTest.java
+=========================================================================================
+ * FlipBitRule
+ * OverrideRulesRunner
+ * OverrideRulesTest
+ * OverrideTestRulesRunner
+ * OverrideTestRulesTest
+ * OverrideCreateTestRunner
+ * OverrideCreateTest
+ * CreateTestDefersToNoArgCreateTestRunner
+ * CreateTestDefersToNoArgCreateTestTest
+ * BlockJUnit4ClassRunnerOverrideTest
+
+/src/test/java/org/junit/tests/experimental/rules/ExpectedExceptionTest.java
+============================================================================
+ * EmptyTestExpectingNoException
+ * ThrowExceptionWithExpectedType
+ * ThrowExceptionWithExpectedPartOfMessage
+ * ThrowExceptionWithWrongType
+ * HasWrongMessage
+ * ThrowNoExceptionButExpectExceptionWithType
+ * WronglyExpectsExceptionMessage
+ * ExpectsSubstring
+ * ExpectsSubstringNullMessage
+ * ExpectsMessageMatcher
+ * ExpectedMessageMatcherFails
+ * ExpectsMatcher
+ * ExpectsMultipleMatchers
+ * ExpectAssertionErrorWhichIsNotThrown
+ * FailBeforeExpectingException
+ * FailedAssumptionAndExpectException
+ * ThrowExceptionWithMatchingCause
+ * ThrowExpectedNullCause
+ * ThrowUnexpectedCause
+ * UseNoCustomMessage
+ * UseCustomMessageWithPlaceHolder
+ * UseCustomMessageWithoutPlaceHolder
+ * ExpectedExceptionTest
+
+/src/test/java/org/junit/tests/experimental/rules/TemporaryFolderRuleAssuredDeletionTest.java
+=============================================================================================
+ * StubTemporaryFolder
+ * HasTempFolderWithAssuredDeletion
+ * HasTempFolderWithoutAssuredDeletion
+ * TemporaryFolderRuleAssuredDeletionTest
+
+/src/test/java/org/junit/tests/experimental/rules/TestWatchmanTest.java
+=======================================================================
+ * ViolatedAssumptionTest
+ * FailingTest
+ * LoggingTestWatchman
+ * TestWatchmanTest
+
+/src/test/java/org/junit/tests/experimental/categories/JavadocTest.java
+=======================================================================
+ * FastTests
+ * SlowTests
+ * SmokeTests
+ * A
+ * B
+ * SlowTestSuite
+ * FastOrSmokeTestSuite
+ * JavadocTest
+
+/src/test/java/org/junit/tests/experimental/categories/CategoriesAndParameterizedTest.java
+==========================================================================================
+ * Token
+ * ParameterizedTestWithoutCategory
+ * TestThatAvoidsNoTestRemainsException
+ * SuiteWithParameterizedTestWithoutCategory
+ * ParameterizedTestWithCategory
+ * SuiteWithParameterizedTestWithCategory
+ * ParameterizedTestWithMethodWithCategory
+ * SuiteWithParameterizedTestWithMethodWithCategory
+ * CategoriesAndParameterizedTest
+
+/src/test/java/org/junit/tests/experimental/categories/CategoryValidatorTest.java
+=================================================================================
+ * SampleCategory
+ * CategoryTest
+ * CategoryValidatorTest
+
+/src/test/java/org/junit/tests/experimental/categories/MultiCategoryTest.java
+=============================================================================
+ * A
+ * B
+ * C
+ * MultiCategorySuite
+ * CategoriesTest
+ * X
+ * Y
+ * Z
+ * W
+ * Q
+ * InheritanceAny
+ * InheritanceAll
+ * InheritanceAnyAll
+ * InheritanceAllAny
+ * InheritanceAnyTest
+ * InheritanceAllTest
+ * InheritanceAnyAllTest
+ * InheritanceAllAnyTest
+ * MultiCategoryTest
+
+/src/test/java/org/junit/tests/experimental/categories/CategoryTest.java
+========================================================================
+ * FastTests
+ * SlowTests
+ * ReallySlowTests
+ * OneOfEach
+ * A
+ * B
+ * C
+ * SlowTestSuite
+ * JustA
+ * Category1
+ * Category2
+ * SomeAreSlow
+ * SomeAreSlowSuite
+ * IncludeAndExcludeSuite
+ * TestSuiteWithNoCategories
+ * OneFastOneSlow
+ * OneFast
+ * OneFastSuite
+ * OneThatIsBothFastAndSlow
+ * ChooseSlowFromBoth
+ * VerySlowTests
+ * OneVerySlowTest
+ * RunSlowFromVerySlow
+ * MultiA
+ * MultiB
+ * MultiC
+ * AllIncludedMustBeMatchedSuite
+ * AllIncludedMustMatched
+ * MultiIncludeWithExcludeCategorySuite
+ * MultipleIncludesAndExcludeOnMethod
+ * ClassAsCategory
+ * OneMoreTest
+ * RunClassAsCategory
+ * Ancestor
+ * Inherited
+ * InheritanceSuite
+ * EmptyCategoriesSuite
+ * NoTest
+ * IgnoredTest
+ * IgnoredTestCategoriesSuite
+ * ExcludedTest1
+ * ExcludedTest2
+ * IncludedTest
+ * IncludedExcludedSameSuite
+ * NoIncludeCategoryAnnotationSuite
+ * NoIncludeCategoryAnnotationTest
+ * SameAsNoIncludeCategoryAnnotationSuite
+ * CategoryTest
+
+/src/test/java/org/junit/tests/listening/RunnerTest.java
+========================================================
+ * MyListener
+ * Example
+ * ExampleTest
+ * NewExample
+ * RunnerTest
+
+/src/test/java/org/junit/tests/listening/TestListenerTest.java
+==============================================================
+ * ErrorListener
+ * OneTest
+ * ExceptionListener
+ * TestListenerTest
+
+/src/test/java/org/junit/tests/listening/ListenerTest.java
+==========================================================
+ * OneTest
+ * ListenerTest
+
+/src/test/java/org/junit/tests/listening/UserStopTest.java
+==========================================================
+ * OneTest
+ * UserStopTest
+
+/src/test/java/org/junit/tests/listening/TextListenerTest.java
+==============================================================
+ * OneTest
+ * ErrorTest
+ * Time
+ * TextListenerTest
+
+/src/test/java/org/junit/tests/manipulation/FilterTest.java
+===========================================================
+ * NamedFilter
+ * FilterTest
+
+/src/test/java/org/junit/tests/manipulation/FilterableTest.java
+===============================================================
+ * FilteredRunner
+ * FilteredTest
+ * FilterableTest
+
+/src/test/java/org/junit/tests/manipulation/SingleMethodTest.java
+=================================================================
+ * OneTimeSetup
+ * ParameterizedOneTimeSetup
+ * ParameterizedOneTimeBeforeClass
+ * TestOne
+ * TestTwo
+ * OneTwoSuite
+ * HasSuiteMethod
+ * SingleMethodTest
+
+/src/test/java/org/junit/tests/manipulation/SortableTest.java
+=============================================================
+ * SortMe
+ * A
+ * B
+ * Enclosing
+ * TestClassRunnerIsSortable
+ * SortMe
+ * TestClassRunnerIsSortableWithSuiteMethod
+ * UnsortableRunner
+ * Unsortable
+ * UnsortableRunnersAreHandledWithoutCrashing
+ * SortableTest
+
+/src/test/java/org/junit/tests/TestSystem.java
+==============================================
+ * TestSystem
+
+/src/test/java/org/junit/tests/internal/runners/statements/FailOnTimeoutTest.java
+=================================================================================
+ * TestStatement
+ * InfiniteLoopStatement
+ * StuckStatement
+ * FailOnTimeoutTest
+
+/src/test/java/org/junit/tests/internal/runners/ErrorReportingRunnerTest.java
+=============================================================================
+ * ErrorReportingRunnerTest
+
+/src/test/java/org/junit/tests/assertion/MultipleFailureExceptionTest.java
+==========================================================================
+ * ExpectedException
+ * MultipleFailureExceptionTest
+
+/src/test/java/org/junit/tests/assertion/ComparisonFailureTest.java
+===================================================================
+ * ComparisonFailureTest
+
+/src/test/java/org/junit/tests/assertion/AssertionTest.java
+===========================================================
+ * AssertionTest
+
+/src/test/java/org/junit/tests/junit3compatibility/AllTestsTest.java
+====================================================================
+ * OneTest
+ * All
+ * JUnit4Test
+ * AllJUnit4
+ * BadSuiteMethod
+ * AllTestsTest
+
+/src/test/java/org/junit/tests/junit3compatibility/ClassRequestTest.java
+========================================================================
+ * PrivateSuiteMethod
+ * ClassRequestTest
+
+/src/test/java/org/junit/tests/junit3compatibility/JUnit38ClassRunnerTest.java
+==============================================================================
  * MyTest
+ * AnnotatedTest
+ * OneTest
+ * ClassWithInvalidMethod
+ * JUnit3ClassWithAnnotatedMethod
+ * DerivedAnnotatedMethod
+ * RejectAllTestsFilter
+ * JUnit38ClassRunnerTest
+
+/src/test/java/org/junit/tests/junit3compatibility/OldTests.java
+================================================================
+ * OldTests
+
+/src/test/java/org/junit/tests/junit3compatibility/InitializationErrorForwardCompatibilityTest.java
+===================================================================================================
+ * CantInitialize
+ * CantInitializeTests
+ * ErrorRememberingListener
+ * InitializesWithError
+ * InitializationErrorForwardCompatibilityTest
+
+/src/test/java/org/junit/tests/junit3compatibility/ForwardCompatibilityPrintingTest.java
+========================================================================================
+ * TestResultPrinter
+ * ATest
+ * ForwardCompatibilityPrintingTest
+
+/src/test/java/org/junit/tests/junit3compatibility/ForwardCompatibilityTest.java
+================================================================================
+ * NewTest
+ * ErrorTest
+ * NoExceptionTest
+ * ExpectedTest
+ * UnExpectedExceptionTest
+ * BeforeClassTest
+ * ExceptionInBeforeTest
+ * InvalidMethodTest
+ * MarkerRunner
+ * NoTests
+ * ForwardCompatibilityTest
+
+/src/test/java/org/junit/tests/junit3compatibility/SuiteMethodTest.java
+=======================================================================
+ * OldTest
+ * NewTest
+ * CompatibilityTest
+ * NewTestSuiteFails
+ * NewTestSuiteNotUsed
+ * SuiteMethodTest
+
+/src/test/java/org/junit/tests/junit3compatibility/OldTestClassAdaptingListenerTest.java
+========================================================================================
+ * OldTestClassAdaptingListenerTest
+
+/src/test/java/org/junit/tests/description/TestDescriptionMethodNameTest.java
+=============================================================================
+ * TestDescriptionMethodNameTest
+
+/src/test/java/org/junit/tests/description/TestDescriptionTest.java
+===================================================================
+ * TestDescriptionTest
+
+/src/test/java/org/junit/tests/description/SuiteDescriptionTest.java
+====================================================================
+ * SuiteDescriptionTest
+
+/src/test/java/org/junit/tests/description/AnnotatedDescriptionTest.java
+========================================================================
+ * AnnotatedClass
+ * IgnoredClass
+ * ValueAnnotatedClass
+ * AnnotatedDescriptionTest
+
+/src/test/java/org/junit/tests/package-info.java
+================================================
+
+/src/test/java/org/junit/tests/validation/BadlyFormedClassesTest.java
+=====================================================================
+ * FaultyConstructor
+ * BadBeforeMethodWithLegacyRunner
+ * NoTests
+ * BadlyFormedClassesTest
+
+/src/test/java/org/junit/tests/validation/anotherpackage/Super.java
+===================================================================
+ * Super
+
+/src/test/java/org/junit/tests/validation/anotherpackage/Sub.java
+=================================================================
+ * Sub
+
+/src/test/java/org/junit/tests/validation/FailedConstructionTest.java
+=====================================================================
+ * CantConstruct
+ * FailedConstructionTest
+
+/src/test/java/org/junit/tests/validation/ValidationTest.java
+=============================================================
+ * WrongBeforeClass
+ * NonStaticBeforeClass
+ * ValidationTest
+
+/src/test/java/org/junit/tests/ObjectContractTest.java
+======================================================
+ * ObjectContractTest
+
+/src/test/java/org/junit/tests/deprecated/JUnit4ClassRunnerTest.java
+====================================================================
+ * Example
+ * UnconstructableExample
+ * JUnit4ClassRunnerTest
+
+/src/test/java/org/junit/internal/builders/AnnotatedBuilderTest.java
+====================================================================
+ * MostInnerClass
+ * InnerClassWithoutOwnRunWith
+ * MostInnerClass
+ * InnerClassWithOwnRunWith
+ * OuterClass
+ * InnerRunner
+ * AnnotatedBuilderTest
+
+/src/test/java/org/junit/internal/MethodSorterTest.java
+=======================================================
+ * DummySortWithoutAnnotation
+ * Super
+ * Sub
+ * DummySortWithDefault
+ * DummySortJvm
+ * DummySortWithNameAsc
+ * MethodSorterTest
+
+/src/test/java/org/junit/internal/matchers/ThrowableCauseMatcherTest.java
+=========================================================================
+ * ThrowableCauseMatcherTest
+
+/src/test/java/org/junit/internal/matchers/StacktracePrintingMatcherTest.java
+=============================================================================
+ * StacktracePrintingMatcherTest
+
+/src/test/java/org/junit/samples/ListTest.java
+==============================================
+ * ListTest
+
+/src/test/java/org/junit/samples/SimpleTest.java
+================================================
+ * SimpleTest
+
+/src/test/java/org/junit/samples/money/MoneyTest.java
+=====================================================
+ * MoneyTest
+
+/src/test/java/org/junit/samples/money/package-info.java
+========================================================
+
+/src/test/java/org/junit/samples/package-info.java
+==================================================
+
+/src/test/java/org/junit/AssumptionViolatedExceptionTest.java
+=============================================================
+ * AssumptionViolatedExceptionTest
+
+/src/test/java/org/junit/rules/DisableOnDebugTest.java
+======================================================
+ * FailOnExecution
+ * AbstractDisableOnDebugTest
+ * PreJava5DebugArgumentsTest
+ * PreJava5DebugArgumentsReversedTest
+ * PostJava5DebugArgumentsTest
+ * WithoutDebugArgumentsTest
+ * DisableOnDebugTest
+
+/src/test/java/org/junit/rules/StopwatchTest.java
+=================================================
+ * Record
+ * AbstractStopwatchTest
+ * SuccessfulTest
+ * FailedTest
+ * SkippedTest
+ * DurationDuringTestTest
+ * DurationAfterTestTest
+ * StopwatchTest
+
+/src/test/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParametersTest.java
+============================================================================================
+ * ClassWithParameterizedAnnotation
+ * BlockJUnit4ClassRunnerWithParametersTest
+
+/src/test/java/org/junit/runners/parameterized/ParameterizedNamesTest.java
+==========================================================================
+ * ParametrizedWithSpecialCharsInName
+ * ParameterizedNamesTest
+
+/src/test/java/org/junit/runners/parameterized/TestWithParametersTest.java
+==========================================================================
+ * DummyClass
+ * AnotherDummyClass
+ * TestWithParametersTest
+
+/src/test/java/org/junit/runners/CustomBlockJUnit4ClassRunnerTest.java
+======================================================================
+ * CustomBlockJUnit4ClassRunnerTestCase
+ * CustomBlockJUnit4ClassRunner
+ * TrackingRunListener
+ * CustomBlockJUnit4ClassRunnerTest
+
+/src/test/java/org/junit/runners/model/FrameworkMethodTest.java
+===============================================================
+ * ClassWithDummyMethod
+ * FrameworkMethodTest
+
+/src/test/java/org/junit/runners/model/FrameworkFieldTest.java
+==============================================================
+ * ClassWithDummyField
+ * FrameworkFieldTest
+
+/src/test/java/org/junit/runners/model/RunnerBuilderStub.java
+=============================================================
+ * RunnerBuilderStub
+
+/src/test/java/org/junit/runners/model/TestClassTest.java
+=========================================================
+ * TwoConstructors
+ * SuperclassWithField
+ * SubclassWithField
+ * NonStaticInnerClass
+ * OuterClass
+ * StaticInnerClass
+ * OuterClass2
+ * SimpleClass
+ * FieldAnnotated
+ * MethodsAnnotated
+ * DummyClass
+ * AnotherDummyClass
+ * PublicClass
+ * NonPublicClass
+ * AnnotatedClass
+ * TestClassTest
+
+/src/main/java/junit/textui/TestRunner.java
+===========================================
+ * TestRunner
+
+/src/main/java/junit/textui/ResultPrinter.java
+==============================================
+ * ResultPrinter
+
+/src/main/java/junit/textui/package-info.java
+=============================================
+
+/src/main/java/junit/framework/ComparisonCompactor.java
+=======================================================
+ * ComparisonCompactor
+
+/src/main/java/junit/framework/JUnit4TestCaseFacade.java
+========================================================
+ * JUnit4TestCaseFacade
+
+/src/main/java/junit/framework/JUnit4TestAdapter.java
+=====================================================
+ * JUnit4TestAdapter
+
+/src/main/java/junit/framework/TestListener.java
+================================================
+ * TestListener
+
+/src/main/java/junit/framework/ComparisonFailure.java
+=====================================================
+ * ComparisonFailure
+
+/src/main/java/junit/framework/AssertionFailedError.java
+========================================================
+ * AssertionFailedError
+
+/src/main/java/junit/framework/TestFailure.java
+===============================================
+ * TestFailure
+
+/src/main/java/junit/framework/Assert.java
+==========================================
+ * Assert
+
+/src/main/java/junit/framework/Test.java
+========================================
+ * Test
+
+/src/main/java/junit/framework/Protectable.java
+===============================================
+ * Protectable
+
+/src/main/java/junit/framework/TestResult.java
+==============================================
+ * TestResult
+
+/src/main/java/junit/framework/TestCase.java
+============================================
+ * TestCase
+
+/src/main/java/junit/framework/package-info.java
+================================================
+
+/src/main/java/junit/framework/JUnit4TestAdapterCache.java
+==========================================================
+ * JUnit4TestAdapterCache
+
+/src/main/java/junit/framework/TestSuite.java
+=============================================
+ * TestSuite
+
+/src/main/java/junit/runner/BaseTestRunner.java
+===============================================
+ * BaseTestRunner
+
+/src/main/java/junit/runner/TestRunListener.java
+================================================
+ * TestRunListener
+
+/src/main/java/junit/runner/Version.java
+========================================
+ * Version
+
+/src/main/java/junit/runner/package-info.java
+=============================================
+
+/src/main/java/junit/extensions/ActiveTestSuite.java
+====================================================
+ * ActiveTestSuite
+
+/src/main/java/junit/extensions/RepeatedTest.java
+=================================================
+ * RepeatedTest
+
+/src/main/java/junit/extensions/TestSetup.java
+==============================================
+ * TestSetup
+
+/src/main/java/junit/extensions/TestDecorator.java
+==================================================
+ * TestDecorator
+
+/src/main/java/junit/extensions/package-info.java
+=================================================
+
+/src/main/java/org/junit/ClassRule.java
+=======================================
+
+/src/main/java/org/junit/experimental/ParallelComputer.java
+===========================================================
+ * ParallelComputer
+
+/src/main/java/org/junit/experimental/theories/PotentialAssignment.java
+=======================================================================
+ * CouldNotGenerateValueException
+ * PotentialAssignment
+
+/src/main/java/org/junit/experimental/theories/Theories.java
+============================================================
+ * TheoryAnchor
+ * Theories
+
+/src/main/java/org/junit/experimental/theories/suppliers/TestedOnSupplier.java
+==============================================================================
+ * TestedOnSupplier
+
+/src/main/java/org/junit/experimental/theories/suppliers/TestedOn.java
+======================================================================
+
+/src/main/java/org/junit/experimental/theories/ParameterSupplier.java
+=====================================================================
+ * ParameterSupplier
+
+/src/main/java/org/junit/experimental/theories/DataPoints.java
+==============================================================
+
+/src/main/java/org/junit/experimental/theories/DataPoint.java
+=============================================================
+
+/src/main/java/org/junit/experimental/theories/internal/AllMembersSupplier.java
+===============================================================================
+ * MethodParameterValue
+ * AllMembersSupplier
+
+/src/main/java/org/junit/experimental/theories/internal/BooleanSupplier.java
+============================================================================
+ * BooleanSupplier
+
+/src/main/java/org/junit/experimental/theories/internal/ParameterizedAssertionError.java
+========================================================================================
+ * ParameterizedAssertionError
+
+/src/main/java/org/junit/experimental/theories/internal/EnumSupplier.java
+=========================================================================
+ * EnumSupplier
+
+/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java
+=======================================================================================
+ * SpecificDataPointsSupplier
+
+/src/main/java/org/junit/experimental/theories/internal/Assignments.java
+========================================================================
+ * Assignments
+
+/src/main/java/org/junit/experimental/theories/ParameterSignature.java
+======================================================================
+ * ParameterSignature
+
+/src/main/java/org/junit/experimental/theories/Theory.java
+==========================================================
+
+/src/main/java/org/junit/experimental/theories/ParametersSuppliedBy.java
+========================================================================
+
+/src/main/java/org/junit/experimental/theories/FromDataPoints.java
+==================================================================
+
+/src/main/java/org/junit/experimental/max/MaxCore.java
+======================================================
+ * MaxCore
+
+/src/main/java/org/junit/experimental/max/CouldNotReadCoreException.java
+========================================================================
+ * CouldNotReadCoreException
+
+/src/main/java/org/junit/experimental/max/MaxHistory.java
+=========================================================
+ * RememberingListener
+ * TestComparator
+ * MaxHistory
+
+/src/main/java/org/junit/experimental/results/PrintableResult.java
+==================================================================
+ * PrintableResult
+
+/src/main/java/org/junit/experimental/results/FailureList.java
+==============================================================
+ * FailureList
+
+/src/main/java/org/junit/experimental/results/ResultMatchers.java
+=================================================================
+ * ResultMatchers
+
+/src/main/java/org/junit/experimental/runners/Enclosed.java
+===========================================================
+ * Enclosed
+
+/src/main/java/org/junit/experimental/categories/IncludeCategories.java
+=======================================================================
+ * IncludesAny
+ * IncludeCategories
+
+/src/main/java/org/junit/experimental/categories/Category.java
+==============================================================
+
+/src/main/java/org/junit/experimental/categories/CategoryValidator.java
+=======================================================================
+ * CategoryValidator
+
+/src/main/java/org/junit/experimental/categories/CategoryFilterFactory.java
+===========================================================================
+ * CategoryFilterFactory
+
+/src/main/java/org/junit/experimental/categories/ExcludeCategories.java
+=======================================================================
+ * ExcludesAny
+ * ExcludeCategories
+
+/src/main/java/org/junit/experimental/categories/Categories.java
+================================================================
+ * CategoryFilter
+ * Categories
+
+/src/main/java/org/junit/validator/AnnotationsValidator.java
+============================================================
+ * AnnotatableValidator
+ * ClassValidator
+ * MethodValidator
+ * FieldValidator
+ * AnnotationsValidator
+
+/src/main/java/org/junit/validator/AnnotationValidatorFactory.java
+==================================================================
+ * AnnotationValidatorFactory
+
+/src/main/java/org/junit/validator/AnnotationValidator.java
+===========================================================
+ * AnnotationValidator
+
+/src/main/java/org/junit/validator/ValidateWith.java
+====================================================
+
+/src/main/java/org/junit/validator/TestClassValidator.java
+==========================================================
+ * TestClassValidator
+
+/src/main/java/org/junit/validator/PublicClassValidator.java
+============================================================
+ * PublicClassValidator
+
+/src/main/java/org/junit/BeforeClass.java
+=========================================
+
+/src/main/java/org/junit/ComparisonFailure.java
+===============================================
+ * DiffExtractor
+ * ComparisonCompactor
+ * ComparisonFailure
+
+/src/main/java/org/junit/runner/FilterFactory.java
+==================================================
+ * FilterNotCreatedException
+ * FilterFactory
+
+/src/main/java/org/junit/runner/manipulation/Filterable.java
+============================================================
+ * Filterable
+
+/src/main/java/org/junit/runner/manipulation/Sortable.java
+==========================================================
+ * Sortable
+
+/src/main/java/org/junit/runner/manipulation/Sorter.java
+========================================================
+ * Sorter
+
+/src/main/java/org/junit/runner/manipulation/package-info.java
+==============================================================
+
+/src/main/java/org/junit/runner/manipulation/Filter.java
+========================================================
+ * Filter
+
+/src/main/java/org/junit/runner/manipulation/NoTestsRemainException.java
+========================================================================
+ * NoTestsRemainException
+
+/src/main/java/org/junit/runner/notification/Failure.java
+=========================================================
+ * Failure
+
+/src/main/java/org/junit/runner/notification/StoppedByUserException.java
+========================================================================
+ * StoppedByUserException
+
+/src/main/java/org/junit/runner/notification/SynchronizedRunListener.java
+=========================================================================
+ * SynchronizedRunListener
+
+/src/main/java/org/junit/runner/notification/RunListener.java
+=============================================================
+ * RunListener
+
+/src/main/java/org/junit/runner/notification/RunNotifier.java
+=============================================================
+ * SafeNotifier
+ * RunNotifier
+
+/src/main/java/org/junit/runner/notification/package-info.java
+==============================================================
+
+/src/main/java/org/junit/runner/Runner.java
+===========================================
+ * Runner
+
+/src/main/java/org/junit/runner/Computer.java
+=============================================
+ * Computer
+
+/src/main/java/org/junit/runner/Description.java
+================================================
+ * Description
+
+/src/main/java/org/junit/runner/RunWith.java
+============================================
+
+/src/main/java/org/junit/runner/FilterFactories.java
+====================================================
+ * FilterFactories
+
+/src/main/java/org/junit/runner/FilterFactoryParams.java
+========================================================
+ * FilterFactoryParams
+
+/src/main/java/org/junit/runner/JUnitCommandLineParseResult.java
+================================================================
+ * CommandLineParserError
+ * JUnitCommandLineParseResult
+
+/src/main/java/org/junit/runner/Describable.java
+================================================
+ * Describable
+
+/src/main/java/org/junit/runner/JUnitCore.java
+==============================================
+ * JUnitCore
+
+/src/main/java/org/junit/runner/Result.java
+===========================================
+ * Listener
+ * SerializedForm
+ * Result
+
+/src/main/java/org/junit/runner/package-info.java
+=================================================
+
+/src/main/java/org/junit/runner/Request.java
+============================================
+ * Request
+
+/src/main/java/org/junit/Ignore.java
+====================================
+
+/src/main/java/org/junit/internal/builders/JUnit4Builder.java
+=============================================================
+ * JUnit4Builder
+
+/src/main/java/org/junit/internal/builders/IgnoredClassRunner.java
+==================================================================
+ * IgnoredClassRunner
+
+/src/main/java/org/junit/internal/builders/AnnotatedBuilder.java
+================================================================
+ * AnnotatedBuilder
+
+/src/main/java/org/junit/internal/builders/NullBuilder.java
+===========================================================
+ * NullBuilder
+
+/src/main/java/org/junit/internal/builders/IgnoredBuilder.java
+==============================================================
+ * IgnoredBuilder
+
+/src/main/java/org/junit/internal/builders/AllDefaultPossibilitiesBuilder.java
+==============================================================================
+ * AllDefaultPossibilitiesBuilder
+
+/src/main/java/org/junit/internal/builders/JUnit3Builder.java
+=============================================================
+ * JUnit3Builder
+
+/src/main/java/org/junit/internal/builders/SuiteMethodBuilder.java
+==================================================================
+ * SuiteMethodBuilder
+
+/src/main/java/org/junit/internal/InexactComparisonCriteria.java
+================================================================
+ * InexactComparisonCriteria
+
+/src/main/java/org/junit/internal/ArrayComparisonFailure.java
+=============================================================
+ * ArrayComparisonFailure
+
+/src/main/java/org/junit/internal/requests/ClassRequest.java
+============================================================
+ * ClassRequest
+
+/src/main/java/org/junit/internal/requests/SortingRequest.java
+==============================================================
+ * SortingRequest
+
+/src/main/java/org/junit/internal/requests/FilterRequest.java
+=============================================================
+ * FilterRequest
+
+/src/main/java/org/junit/internal/requests/package-info.java
+============================================================
+
+/src/main/java/org/junit/internal/Throwables.java
+=================================================
+ * Throwables
+
+/src/main/java/org/junit/internal/JUnitSystem.java
+==================================================
+ * JUnitSystem
+
+/src/main/java/org/junit/internal/RealSystem.java
+=================================================
+ * RealSystem
+
+/src/main/java/org/junit/internal/MethodSorter.java
+===================================================
+ * MethodSorter
+
+/src/main/java/org/junit/internal/ComparisonCriteria.java
+=========================================================
+ * ComparisonCriteria
+
+/src/main/java/org/junit/internal/Classes.java
+==============================================
+ * Classes
+
+/src/main/java/org/junit/internal/TextListener.java
+===================================================
+ * TextListener
+
+/src/main/java/org/junit/internal/AssumptionViolatedException.java
+==================================================================
+ * AssumptionViolatedException
+
+/src/main/java/org/junit/internal/runners/TestClass.java
+========================================================
+ * TestClass
+
+/src/main/java/org/junit/internal/runners/TestMethod.java
+=========================================================
+ * TestMethod
+
+/src/main/java/org/junit/internal/runners/MethodRoadie.java
+===========================================================
+ * MethodRoadie
+
+/src/main/java/org/junit/internal/runners/JUnit38ClassRunner.java
+=================================================================
+ * OldTestClassAdaptingListener
+ * JUnit38ClassRunner
+
+/src/main/java/org/junit/internal/runners/JUnit4ClassRunner.java
+================================================================
+ * JUnit4ClassRunner
+
+/src/main/java/org/junit/internal/runners/MethodValidator.java
+==============================================================
+ * MethodValidator
+
+/src/main/java/org/junit/internal/runners/FailedBefore.java
+===========================================================
+ * FailedBefore
+
+/src/main/java/org/junit/internal/runners/ErrorReportingRunner.java
+===================================================================
+ * ErrorReportingRunner
+
+/src/main/java/org/junit/internal/runners/statements/Fail.java
+==============================================================
+ * Fail
+
+/src/main/java/org/junit/internal/runners/statements/FailOnTimeout.java
+=======================================================================
+ * Builder
+ * CallableStatement
+ * FailOnTimeout
+
+/src/main/java/org/junit/internal/runners/statements/RunBefores.java
+====================================================================
+ * RunBefores
+
+/src/main/java/org/junit/internal/runners/statements/InvokeMethod.java
+======================================================================
+ * InvokeMethod
+
+/src/main/java/org/junit/internal/runners/statements/ExpectException.java
+=========================================================================
+ * ExpectException
+
+/src/main/java/org/junit/internal/runners/statements/RunAfters.java
+===================================================================
+ * RunAfters
+
+/src/main/java/org/junit/internal/runners/ClassRoadie.java
+==========================================================
+ * ClassRoadie
+
+/src/main/java/org/junit/internal/runners/model/ReflectiveCallable.java
+=======================================================================
+ * ReflectiveCallable
+
+/src/main/java/org/junit/internal/runners/model/EachTestNotifier.java
+=====================================================================
+ * EachTestNotifier
+
+/src/main/java/org/junit/internal/runners/model/MultipleFailureException.java
+=============================================================================
+ * MultipleFailureException
+
+/src/main/java/org/junit/internal/runners/SuiteMethod.java
+==========================================================
+ * SuiteMethod
+
+/src/main/java/org/junit/internal/runners/rules/RuleMemberValidator.java
+========================================================================
+ * Builder
+ * RuleValidator
+ * MemberMustBeNonStaticOrAlsoClassRule
+ * MemberMustBeStatic
+ * DeclaringClassMustBePublic
+ * MemberMustBePublic
+ * FieldMustBeARule
+ * MethodMustBeARule
+ * MethodMustBeATestRule
+ * FieldMustBeATestRule
+ * RuleMemberValidator
+
+/src/main/java/org/junit/internal/runners/rules/ValidationError.java
+====================================================================
+ * ValidationError
+
+/src/main/java/org/junit/internal/runners/InitializationError.java
+==================================================================
+ * InitializationError
+
+/src/main/java/org/junit/internal/runners/package-info.java
+===========================================================
+
+/src/main/java/org/junit/internal/ExactComparisonCriteria.java
+==============================================================
+ * ExactComparisonCriteria
+
+/src/main/java/org/junit/internal/matchers/StacktracePrintingMatcher.java
+=========================================================================
+ * StacktracePrintingMatcher
+
+/src/main/java/org/junit/internal/matchers/ThrowableCauseMatcher.java
+=====================================================================
+ * ThrowableCauseMatcher
+
+/src/main/java/org/junit/internal/matchers/ThrowableMessageMatcher.java
+=======================================================================
+ * ThrowableMessageMatcher
+
+/src/main/java/org/junit/internal/matchers/TypeSafeMatcher.java
+===============================================================
+ * TypeSafeMatcher
+
+/src/main/java/org/junit/FixMethodOrder.java
+============================================
+
+/src/main/java/org/junit/Assert.java
+====================================
+ * ThrowingRunnable
+ * Assert
+
+/src/main/java/org/junit/After.java
+===================================
+
+/src/main/java/org/junit/Test.java
+==================================
+ * None
+
+/src/main/java/org/junit/Assume.java
+====================================
+ * Assume
+
+/src/main/java/org/junit/rules/TestRule.java
+============================================
+ * TestRule
+
+/src/main/java/org/junit/rules/Verifier.java
+============================================
+ * Verifier
+
+/src/main/java/org/junit/rules/Stopwatch.java
+=============================================
+ * InternalWatcher
+ * Clock
+ * Stopwatch
+
+/src/main/java/org/junit/rules/RunRules.java
+============================================
+ * RunRules
+
+/src/main/java/org/junit/rules/TestName.java
+============================================
+ * TestName
+
+/src/main/java/org/junit/rules/RuleChain.java
+=============================================
+ * RuleChain
+
+/src/main/java/org/junit/rules/ErrorCollector.java
+==================================================
+ * ErrorCollector
+
+/src/main/java/org/junit/rules/ExpectedExceptionMatcherBuilder.java
+===================================================================
+ * ExpectedExceptionMatcherBuilder
+
+/src/main/java/org/junit/rules/Timeout.java
+===========================================
+ * Builder
+ * Timeout
+
+/src/main/java/org/junit/rules/TestWatchman.java
+================================================
+ * TestWatchman
+
+/src/main/java/org/junit/rules/TemporaryFolder.java
+===================================================
+ * Builder
+ * TemporaryFolder
+
+/src/main/java/org/junit/rules/DisableOnDebug.java
+==================================================
+ * DisableOnDebug
+
+/src/main/java/org/junit/rules/ExpectedException.java
+=====================================================
+ * ExpectedExceptionStatement
+ * ExpectedException
+
+/src/main/java/org/junit/rules/MethodRule.java
+==============================================
+ * MethodRule
+
+/src/main/java/org/junit/rules/ExternalResource.java
+====================================================
+ * ExternalResource
+
+/src/main/java/org/junit/rules/TestWatcher.java
+===============================================
+ * TestWatcher
+
+/src/main/java/org/junit/AssumptionViolatedException.java
+=========================================================
+ * AssumptionViolatedException
+
+/src/main/java/org/junit/runners/AllTests.java
+==============================================
+ * AllTests
+
+/src/main/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParametersFactory.java
+===============================================================================================
+ * BlockJUnit4ClassRunnerWithParametersFactory
+
+/src/main/java/org/junit/runners/parameterized/ParametersRunnerFactory.java
+===========================================================================
+ * ParametersRunnerFactory
+
+/src/main/java/org/junit/runners/parameterized/TestWithParameters.java
+======================================================================
+ * TestWithParameters
+
+/src/main/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParameters.java
+========================================================================================
+ * BlockJUnit4ClassRunnerWithParameters
+
+/src/main/java/org/junit/runners/Parameterized.java
+===================================================
+ * RunnersFactory
+ * Parameterized
+
+/src/main/java/org/junit/runners/Suite.java
+===========================================
+ * Suite
+
+/src/main/java/org/junit/runners/model/TestClass.java
+=====================================================
+ * FieldComparator
+ * MethodComparator
+ * TestClass
+
+/src/main/java/org/junit/runners/model/FrameworkMember.java
+===========================================================
+ * FrameworkMember
+
+/src/main/java/org/junit/runners/model/Statement.java
+=====================================================
+ * Statement
+
+/src/main/java/org/junit/runners/model/Annotatable.java
+=======================================================
+ * Annotatable
+
+/src/main/java/org/junit/runners/model/FrameworkField.java
+==========================================================
+ * FrameworkField
+
+/src/main/java/org/junit/runners/model/FrameworkMethod.java
+===========================================================
+ * FrameworkMethod
+
+/src/main/java/org/junit/runners/model/InitializationError.java
+===============================================================
+ * InitializationError
+
+/src/main/java/org/junit/runners/model/RunnerBuilder.java
+=========================================================
+ * RunnerBuilder
+
+/src/main/java/org/junit/runners/model/NoGenericTypeParametersValidator.java
+============================================================================
+ * NoGenericTypeParametersValidator
+
+/src/main/java/org/junit/runners/model/RunnerScheduler.java
+===========================================================
+ * RunnerScheduler
+
+/src/main/java/org/junit/runners/model/TestTimedOutException.java
+=================================================================
+ * TestTimedOutException
+
+/src/main/java/org/junit/runners/model/MultipleFailureException.java
+====================================================================
+ * MultipleFailureException
+
+/src/main/java/org/junit/runners/BlockJUnit4ClassRunner.java
+============================================================
+ * BlockJUnit4ClassRunner
+
+/src/main/java/org/junit/runners/ParentRunner.java
+==================================================
+ * ParentRunner
+
+/src/main/java/org/junit/runners/MethodSorters.java
+===================================================
+
+/src/main/java/org/junit/runners/JUnit4.java
+============================================
+ * JUnit4
+
+/src/main/java/org/junit/runners/package-info.java
+==================================================
+
+/src/main/java/org/junit/matchers/JUnitMatchers.java
+====================================================
+ * JUnitMatchers
+
+/src/main/java/org/junit/matchers/package-info.java
+===================================================
+
+/src/main/java/org/junit/AfterClass.java
+========================================
+
+/src/main/java/org/junit/Rule.java
+==================================
+
+/src/main/java/org/junit/package-info.java
+==========================================
+
+/src/main/java/org/junit/Before.java
+====================================
 
